@@ -10,16 +10,16 @@
 | ![Status](https://img.shields.io/badge/status-active-brightgreen) | 10/26/2025 - XX/XX/2025|
 
 ### 📝 Description
-Contains a collection of my starter-level java exercise solutions from week 6. <br>
+Contains a collection of my starter-level java exercise solutions from week 6 (workbook 5). <br>
 The workbook (PDF) containing most of the exercises from the week cannot be uploaded due to Pluralsight ownership rights. <br>
 
 #### *Topics covered include:*<br>
-- XXX
-  - XXX
-  - XXX
-- XXX
-  - XXX
-  - XXX  
+- Basic Java Inheritance (Excluding Interfaces)
+  - te extends Keyword
+  - Revisiting Encapsulation
+- Intro to Polymorphism
+  - Overriding Inherited Methods (and the @Override annotation)
+- Intro to Asbtract classes (and the abstract Keyword)
   
 
 ### 🕒 Commits History Here
@@ -34,4 +34,4 @@ OpenAI. (2025). ChatGPT (Oct 1 version) [Large language model]. https://chatgpt.
 
 *I have to give credit where it's due, right?* <br>
 
-**Last Edited: 10/26/2025**
+**Last Edited: 10/28/2025**
