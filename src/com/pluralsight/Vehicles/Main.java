@@ -1,6 +1,6 @@
 package com.pluralsight.Vehicles;
 /**
- * Simple program to test the instantiation of Vehicle's suclasses.
+ * Simple program to test the instantiation of Vehicle's subclasses.
  *
  * @author Ravi Spigner
  */
