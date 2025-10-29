@@ -24,7 +24,7 @@ public class Vehicle extends Asset{
     @Override
     public double getValue() {
         int currentAge = year - LocalDate.now().getYear();
-        double carValue = super.getValue();
+        double carValue = super.getOriginalCost();
         if (currentAge <= 3) {
             carValue = carValue - 0.03 * getOriginalCost() * currentAge;
         } else if (currentAge <= 6) {
