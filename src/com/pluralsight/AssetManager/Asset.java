@@ -5,7 +5,7 @@ package com.pluralsight.AssetManager;
  *
  * @author Ravi Spigner
  */
-public class Asset {
+public abstract class Asset {
     private String description;
     private String dateAcquired;
     private double originalCost;
@@ -14,9 +14,8 @@ public class Asset {
         this.dateAcquired = dateAcquired;
         this.originalCost = originalCost;
     }
-    public double getValue() {
-        return originalCost; //although is redundant to getOriginalCost()
-    }
+    public abstract double getValue();
+
     public String getDescription() {
         return description;
     }
