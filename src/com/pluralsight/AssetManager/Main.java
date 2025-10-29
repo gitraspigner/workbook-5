@@ -17,6 +17,8 @@ public class Main {
                 System.out.println("Address: " + h.getAddress());
             } else if (a instanceof Vehicle v) {
                 System.out.println("Odometer Reading: " + v.getOdometer());
+            } else if (a instanceof Cash c) {
+                System.out.println();
             }
         }
     }
@@ -30,10 +32,14 @@ public class Main {
                 "Toyota Prius", 2016, 15_998);
         Vehicle v2 = new Vehicle("Family/Shared Car", "yesterday", 18_000,
                 "PT Cruiser", 2022, 7_222);
+        Cash c1 = new Cash("Monthly Pay", "10/10/2011", 3_000);
+        Cash c2 = new Cash("Gift From Grandma", "12/25/2011", 100);
         assets.add(h1);
         assets.add(h2);
         assets.add(v1);
         assets.add(v2);
+        assets.add(c1);
+        assets.add(c2);
         return assets;
     }
 }
