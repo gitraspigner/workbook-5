@@ -21,6 +21,7 @@ public class Vehicle extends Asset{
         this.year = year;
         this.odometer = odometer;
     }
+    @Override
     public double getValue() {
         int currentAge = year - LocalDate.now().getYear();
         double carValue = super.getValue();

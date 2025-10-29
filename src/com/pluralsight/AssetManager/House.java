@@ -20,6 +20,7 @@ public class House extends Asset{
         this.squareFoot = squareFoot;
         this.lotSize = lotSize;
     }
+    @Override
     public double getValue() {
         switch (condition) {
             case 1: //excellent
