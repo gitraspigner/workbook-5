@@ -15,7 +15,7 @@ The workbook (PDF) containing most of the exercises from the week cannot be uplo
 
 #### *Topics covered include:*<br>
 - Basic Java Inheritance (Excluding Interfaces)
-  - te extends Keyword
+  - The extends Keyword
   - Revisiting Encapsulation
 - Intro to Polymorphism
   - Overriding Inherited Methods (and the @Override annotation)
